@@ -1,0 +1,13 @@
+.App a {
+  text-decoration: none;
+  color: black;
+}
+
+.capitalize {
+  text-transform: lowercase;
+  display: inline-block;
+
+  &:first-letter {
+    text-transform: uppercase;
+  }
+}
